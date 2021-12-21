@@ -36,4 +36,8 @@ function calculateIMC(){
         result = 'Obeso';
     } else if(imc > 30){//Podendo alterar para 24.9 <= imc && imc <= 30
         result = 'Obesidade extrema';
+    }
+
+    var h1 = document.getElementById('h1');
+    var h2 = document.getElementById('h2');
 }
