@@ -30,11 +30,11 @@ function calculateIMC(){
 
     if(imc < 18.5){
         result = 'Magreza';  
-    } else if(18.5 <= imc >= 24.9){  //Podendo alterar para 18.5 <= imc && imc <= 24.9
+    } else if(18.5 <= imc && imc <= 24.9){
         result = 'Normal';
-    } else if(24.9 <= imc >= 30){//Podendo alterar para 24.9 <= imc && imc <= 30
+    } else if(24.9 <= imc && imc <= 30){
         result = 'Obeso';
-    } else if(imc > 30){//Podendo alterar para 24.9 <= imc && imc <= 30
+    } else if(imc > 30){
         result = 'Obesidade extrema';
     }
 
