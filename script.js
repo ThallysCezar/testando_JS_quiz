@@ -10,5 +10,17 @@ document.getElementById("submit").addEventListener("click", validadeForm)
 function validadeForm(){
     if(age.value == '' || height.value == ''  || weight.value == '' || (male.checked == false && female.checked == false)){
         alert("Todos os cantos devem ser preenchidos!");
+        document.getElementById("submit").removeEventListener("click", calculateIMC);
+    } else {
+        calculateIMC();
+    }
+}
+
+function calculateIMC(){
+    var arrayPerson = [age.value, height.value, weight.value];
+    if(male.checked){
+        arrayPerson.push("male");
+    } else if(female.checked){
+        arrayPerson.push("female");
     }
 }
