@@ -24,5 +24,5 @@ function calculateIMC(){
         arrayPerson.push("female");
     }
 
-    var imc = Number( arrayPerson[2] / ( Number( arrayPerson[1]) / 100 * Number( arrayPerson[1] ) / 100 )
+    var imc = Number(arrayPerson[2]) / (Number(arrayPerson[1]) / 100 * Number( arrayPerson[1]) / 100 );
 }
