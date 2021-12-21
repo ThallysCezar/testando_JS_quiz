@@ -46,4 +46,15 @@ function calculateIMC(){
     var r = document.createTextNode(parseFloat(imc).toFixed(2) + ' kg/m²');
 
     h1.appendChild(t);
+    h2.appendChild(b);
+    h2.appendChild(r);
+
+    document.body.appendChild(h1);
+    document.body.appendChild(h2);
+
+
+    document.getElementById("submit").removeEventListener("click", calculateIMC);
+    document.getElementById("submit").removeEventListener("click", validadeForm);
 }
+
+document.getElementById("submit").addEventListener("click", calculateIMC);
