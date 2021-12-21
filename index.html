@@ -15,10 +15,15 @@
    
         <!--Começo do form-->
         <form class="form" id="form" onsubmit="return validateForm()">
+
+            <!--Começo do Row-One-->
             <div class="row-one">
+                <!--Começo do form Masculino-->
                 <input type="text" class="text-input" id="age" autocomplete="off" required placeholder="ex: 23">
                 <p class="text">Idade</p>
                 <label class="container">
+
+                    <!--Começo do form Feminino-->
                     <input type="radio" name="radio" id="f">
                     <p class="text">Feminino</p>
                     <span class="checkmark"></span>
@@ -28,18 +33,25 @@
                     <p class="text">Masculino</p>
                     <span class="checkmark"></span>
                 </label>
-            </div>
+            </div> <!--Fim do Row-One-->
 
+            <!--Começo do Row-Two-->
             <div class="row-two">
+                <!--Começo do form Altura-->
                 <input type="text" class="text-input" id="height" autocomplete="off" required placeholder="ex: 1,54">
                 <p class="text">Altura (em cm)</p>
+                <!--Começo do form Peso-->
                 <input type="text" class="text-input" id="weight" autocomplete="off" required placeholder="ex: 90">
                 <p class="text">Peso (em kg)</p>
-            </div>
+            </div> <!--Fim do Row-Two-->
+
+            <!--Botão-->
             <button type="button" id="submit">Calcular</button>
+
         </form> <!--Fim do form-->
     </div> <!--Fim do background de fundo-->
 
+    <!--SCRIPT-->
     <script src="script.js"></script>
 </body>
 
