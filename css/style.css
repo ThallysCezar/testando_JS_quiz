@@ -11,12 +11,12 @@ body {
 }
 
 .fundo {
-  background-image: linear-gradient(45deg, black, crimson);
+  background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(133, 129, 129));
   height: 100%;
 }
 
 .form {
-  background-color: #fff;
+  background-color: rgb(37, 37, 37);
   height: 240px;
   width: 450px;
   border-radius: 20px;
@@ -24,6 +24,10 @@ body {
   display: block;
   border: solid 1px #289df6;
   box-shadow: 0 0 40px 0 #ddd;
+}
+
+.form p {
+    color: #fff;
 }
 
 .form:hover {
@@ -139,12 +143,13 @@ h3 {
   font-weight: 300;
   text-align: center;
   padding: 15px;
+  color: #fff;
 }
 
 h3 b {
   font-size: 32px;
   font-weight: 300;
-  color: #289df6;
+  color: #db22bc;
 }
 
 .checkmark:after {
