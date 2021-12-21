@@ -38,6 +38,8 @@ function calculateIMC(){
         result = 'Obesidade extrema';
     }
 
-    var h1 = document.getElementById('h1');
-    var h2 = document.getElementById('h2');
+    var h1 = document.createElement('h1');
+    var h2 = document.createElement('h2');
+
+    var t = document.createTextNode(result)
 }
