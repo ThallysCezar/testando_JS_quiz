@@ -9,6 +9,6 @@ document.getElementById("submit").addEventListener("click", validadeForm)
 
 function validadeForm(){
     if(age.value == '' || height.value == ''  || weight.value == '' || (male.checked == false && female.checked == false)){
-        alert("Todos os cantos devem ser preenchidos!")
+        alert("Todos os cantos devem ser preenchidos!");
     }
 }
