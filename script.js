@@ -25,4 +25,11 @@ function calculateIMC(){
     }
 
     var imc = Number(arrayPerson[2]) / (Number(arrayPerson[1]) / 100 * Number( arrayPerson[1]) / 100 );
+
+    var result = '';
+    if(imc < 18.5){
+        result = 'Magreza';  
+    } else if(18.5 <= imc >= 24.9){  //Podendo alterar para 18.5 <= imc && imc <= 24.9
+
+    }
 }
